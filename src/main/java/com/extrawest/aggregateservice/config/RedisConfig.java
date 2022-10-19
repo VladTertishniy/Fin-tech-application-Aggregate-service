@@ -20,6 +20,10 @@ public class RedisConfig {
         configuration.setPort(6379);
         return new JedisConnectionFactory(configuration);
     }
+    /*@Bean
+    JedisConnectionFactory jedisConnectionFactory() {
+        return new JedisConnectionFactory();
+    }*/
 
     @Bean
     public RedisTemplate<String, Object> template() {
