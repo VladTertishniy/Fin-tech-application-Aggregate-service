@@ -27,6 +27,7 @@ Service have end-point that returns a list of sell points along with a list of o
 [![CircleCI](https://circleci.com/gh/overture-stack/microservice-template-java/tree/master.svg?style=shield)](https://circleci.com/gh/overture-stack/microservice-template-java/tree/master)
 
 ## Features
+This service based on Spring Boot 2.7.4 and java 17.
 This project use Redis for data storing and WebSocket for data aggregation
 
 ## Requirements
