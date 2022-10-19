@@ -15,6 +15,6 @@ public class OperatorResponseDto {
     private long id;
     private String name;
     private LocalDateTime dateOfBirth;
-    private String sellPointIdentifier;
+    private Long sellPointIdentifier;
     private String taxpayerNumber;
 }

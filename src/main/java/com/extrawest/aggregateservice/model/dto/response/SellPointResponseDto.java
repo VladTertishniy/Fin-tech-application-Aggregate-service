@@ -14,5 +14,5 @@ public class SellPointResponseDto {
     private String address;
     private String name;
     private String mark;
-    private boolean isOfflineShop;
+    private boolean offlineShop;
 }
